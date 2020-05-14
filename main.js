@@ -19,5 +19,7 @@ function dispJoke(){
   })
 };
 
+dispJoke();
+
 //Refreshing the Joke every 20 seconds
 setInterval(dispJoke, 20000)
