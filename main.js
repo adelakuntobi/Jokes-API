@@ -13,7 +13,7 @@ function dispJoke(){
     //Assigning the line gotten from the API to a P tag 
        display = `<p>${joke}</p>`;
     //Appending the P tap to the div created in the HTML
-      document.getElementById('dispContent').innerHTML = display;
+      document.getElementById('containerDiv').innerHTML = display;
   })
 };
 
