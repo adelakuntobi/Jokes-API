@@ -6,31 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="favicon.png" rel="icon" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Joke API</title>
 </head>
-<body class="text-center bg-light">
-  <h1 class="mt-5">Jokes Generator</h1>
-
-    
-     <!--Container that holds the joke-->
-    <div id="containerDiv">
-    </div>
-
-    <p>Wait for 20 seconds for the joke to reload</p>
-    <p>OR</p>
-    
-    <!--Optional Button to change the Joke if the User cannot wait-->
-    <button class="btn btn-primary" onclick="dispJoke()">Get New Joke</button>
-
-    <script src="main.js"></script>
-
-    
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+<body>
+  <div class="container">
+    <h1>Jokes <span>API</span></h1>
+    <p>Try not to laugh too hard!</p>
+      <div id="dispContent">
+      </div>
+      <p>Wait for 20 seconds for the joke to reload</p>
+      <p>OR</p>
+      <button onclick="dispJoke()">Get New Joke</button>
+  </div>
+    <script src="main.js"></script>   
 </body>
 </html>
