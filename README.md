@@ -1,3 +1,3 @@
-# Jokes-API
+# Jokes API
 
 https://adelakuntobi.github.io/Jokes-API/
