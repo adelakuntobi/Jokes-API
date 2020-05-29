@@ -14,5 +14,5 @@ function dispJoke(){
 
 dispJoke();
 
-setInterval(dispJoke, 20000)
+setInterval(dispJoke, 10000)
 
